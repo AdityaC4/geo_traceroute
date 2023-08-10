@@ -21,7 +21,7 @@ def run_traceroute(host):
     if system == "Windows":
         command = ["tracert", host]
     else:
-        command = ["traceroute", host]
+        command = ["traceroute", "-I", host]
 
     process = subprocess.Popen(
         command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True
