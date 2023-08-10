@@ -2,6 +2,8 @@
 
 CLI tool with built-in traceroute functionality with geolocation, service provider identification, trace map generation, etc.
 
+Dependencies: `pip`, `folium`, `tabulate`
+
 ### Usage
 ```bash
 > ./georoute.py -h
